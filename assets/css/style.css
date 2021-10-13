@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v5.0.2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11196,6 +11191,105 @@ textarea.form-control-lg {
 .testimonials__name p {
   padding-bottom: 1.8rem;
   text-transform: capitalize;
+}
+
+
+section-header {
+  margin-bottom: 50px;
+}
+
+.section-header p {
+  text-align: center;
+  color: #000000;
+}
+
+.section-header .section-title {
+  font-size: 44px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px;
+
+
+  display: block;
+  text-align: center;
+  color: #133986;
+}
+
+.section-header .section-title:before {
+  content: "------------";
+  position: absolute;
+  width: 140px;
+  bottom: 4px;
+  right: 0;
+  width: 100px;
+  color: #456AC0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  height: 8px;
+  font-size: 13px;
+}
+/*Team*/
+.img-responsive
+{
+  display:block;
+  max-width:100%;
+  height:auto
+}
+
+#our-team {
+  padding: 100px 0;
+  background: #FFFFFF;
+}
+
+#our-team .team-member {
+  padding: 0;
+}
+
+#our-team .team-member .team-img {
+  margin: 0;
+  border-radius: 4%;
+  overflow: hidden;
+  border: 5px solid #AFAFC7;
+}
+
+#our-team .team-member .team-info {
+  background: #FFFFFF;
+  color: #BBBBBB;
+  padding: 7px 0;
+  border-top: 2px solid #fff;
+}
+
+#our-team .team-member:hover .team-social-icons>li>a {
+  color: #60E1BF;
+}
+
+#our-team .team-social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: height 1s;
+  /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+  background: #FFFFFF;
+  padding: 6px 0 6px;
+}
+
+#our-team .team-social-icons>li {
+  display: inline-block;
+}
+
+#our-team .team-social-icons>li>a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #C3C3C3;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #DFDFDF;
+  margin: 5px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
